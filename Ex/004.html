@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<a href="https://al-dog.github.io/ExcerBookHCJ/index.html">Inicio</a>
+	<meta charset="utf-8">
+	<title>Exercise 004 - Platzi (Curso: Fronted Developer) [2023-12-10]</title>
+</head>
+
+<style>
+	div .colorPeru {
+		color: Peru;
+	}
+	div > .colorPapaya{
+		background: PapayaWhip;
+	}
+	p + p {
+		color: Peru;
+	}
+	div ~ .colorcito {
+		color: Peru;
+	}
+</style>
+
+<body>
+	<h1>Ex004: CSS - Selectores Combinadores</h1>
+	<p>En esta sección me basé en la explicación propuesta por uno de los usuarios (RetaxMaster) de la plataforma de Platzi en la sección de comentarios, en tanto el video oficial del curso explica pobremente la teoría y la aplicación de este concepto.</p>
+	
+
+<!--     Ejemplo 1     -->
+
+	<h2>1) Selector Descendiente:</h2>
+	<div>
+		<span class="colorPeru">A mí sí me agarra</span>
+	</div>
+	<span class="colorPeru">A mí no me agarra</span>
+		
+	<!--En un futuro agregar el snipped de este código acá-->
+
+	
+<!--     Ejemplo 2     -->
+		
+	<h2>2) Selector Hijo directo:</h2>
+	<div>
+		<span class="colorPapaya">A mí sí me agarra</span>
+		<section>
+			<span class="colorPapaya">A mí no me agarra</span>
+		</section>
+	</div>
+	<span class="colorPeru">A mí tampoco no me agarra</span>
+	
+	<!--En un futuro agregar el snipped de este código acá-->
+
+<!--     Ejemplo 3     -->
+		
+	<h2>3) Selector de tipo "Elemento Adyacente":</h2>
+	<p>Seleccioné al comentario de abajo.</p>
+	<p>El comentario de arriba me seleccionó</p>
+	
+	<!--En un futuro agregar el snipped de este código acá-->
+
+<!--     Ejemplo 4     -->
+		
+	<h2>4) Selector General de Hermanos:</h2>
+	<div>Seleccioné a todos los comentarios de abajo.</div>
+	<div class="colorcito">
+		<span>El primer comentario nos seleccionó</span>
+	</div>
+	<div class="colorcito">
+		<span>El primer comentario nos seleccionó</span>
+	</div>
+	<div class="colorcito">
+		<span>El primer comentario nos seleccionó</span>
+	</div>	
+	<!--En un futuro agregar el snipped de este código acá-->
+		
+</body>
+
+
+</html>
