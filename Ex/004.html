@@ -21,6 +21,28 @@
 	}
 </style>
 
+<style>
+	table, th, td {
+		background-color: Black;
+		color: White;
+		padding-right: 10px;
+		font-family: courier;
+		line-height: 1.3;
+	}
+	ol .llaves{
+		color: LightSkyBlue;
+	}
+	ol .llaves2{
+		color: Wheat;
+	}
+	ol .llaves3{
+		color: PaleGreen;	
+	}
+	ol .llaves4{
+		color: DarkGoldenrod;	
+	}
+</style>
+
 <body>
 	<h1>Ex004: CSS - Selectores Combinadores</h1>
 	<p>En esta sección me basé en la explicación propuesta por uno de los usuarios (RetaxMaster) de la plataforma de Platzi en la sección de comentarios, en tanto el video oficial del curso explica pobremente la teoría y la aplicación de este concepto.</p>
@@ -29,11 +51,38 @@
 <!--     Ejemplo 1     -->
 
 	<h2>1) Selector Descendiente:</h2>
+	
+		<!-- experimento -->
+	<code>&lt;Código HTML&gt;</code>
+	<table>
+		<tbody>
+			<tr>
+				<td>
+
+	<ol>
+	<li><span class="llaves">&lt;/style&gt;</span></li>
+	<li>&emsp;&emsp;<span class="llaves2">div </span><span class="llaves4">.colorPeru </span>{</li>
+	<li>&emsp;&emsp;&emsp;&emsp;<span class="llaves2">color</span>: Peru;</li>
+	<li>&emsp;&emsp;}</li>
+	<li><span class="llaves">&lt;/style&gt;</span></li>
+	<li></li>
+	<li><span class="llaves">&lt;div&gt;</span></li>
+	<li><span class="llaves2">&emsp;&emsp;&lt;span class=</span><span class="llaves3">"colorPeru"</span><span class="llaves2">&gt;</span>A mí sí me agarra<span class="llaves2">&lt;/span&gt;</span></li>
+	<li><span class="llaves">&lt;div&gt;</span></li>
+	<li><span class="llaves2">&lt;span class=</span><span class="llaves3">"colorPeru"</span><span class="llaves2">&gt;</span>A mí no me agarra<span class="llaves2">&lt;/span&gt;</span></li>
+	</ol>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+	<br />
+	<code>&lt;Resultado&gt;</code>
 	<div>
 		<span class="colorPeru">A mí sí me agarra</span>
 	</div>
 	<span class="colorPeru">A mí no me agarra</span>
-		
+
 	<!--En un futuro agregar el snipped de este código acá-->
 
 	
