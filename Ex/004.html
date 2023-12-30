@@ -32,7 +32,7 @@
 	}
 	ul li::before {
   		content: counter(my-awesome-counter, decimal-leading-zero) " | ";
-  		color:;
+  		
 	}
 	table {
 		background-color: Black;
@@ -179,6 +179,41 @@
 <!--     Ejemplo 4     -->
 		
 	<h2>4) Selector General de Hermanos:</h2>
+
+	
+	<code><b>&lt;Código HTML&gt;</b></code>
+	<table>
+		<tbody>
+			<tr>
+				<td>
+
+	<ul>
+	<li><span class="llaves">&lt;style&gt;</span></li>
+	<li>&emsp;&emsp;<span class="llaves2">div</span> ~ <span class="llaves4">.colorRed</span> {</li>
+	<li>&emsp;&emsp;&emsp;&emsp;<span class="llaves2">color</span>: Red;</li>
+	<li>&emsp;&emsp;}</li>
+	<li><span class="llaves">&lt;/style&gt;</span></li>
+	<li></li>
+	<li><span class="llaves">&lt;body&gt;</span></li>
+	<li>&emsp;&emsp;&emsp;&emsp;<span class="llaves">&lt;div&gt;</span>Seleccioné a todos los comentarios de abajo.<span class="llaves">&lt;/div&gt;</span></li>
+	<!-- 
+	<li>&emsp;&emsp;&emsp;&emsp;<span class="llaves">&lt;div&gt;</span></li>
+	<li>&emsp;&emsp;<span class="llaves">&lt;section&gt;</span></li>
+	<li>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="llaves2">&lt;span class=</span><span class="llaves3">"colorPapaya"</span><span class="llaves2">&gt;</span>A mí no me agarra<span class="llaves2">&lt;/span&gt;</span></li>
+	<li>&emsp;&emsp;&emsp;&emsp;<span class="llaves">&lt;/section&gt;</span></li>
+	<li>&emsp;&emsp;<span class="llaves">&lt;/div&gt;</span></li>
+	<li>&emsp;&emsp;<span class="llaves2">&lt;span class=</span><span class="llaves3">"colorPapaya"</span><span class="llaves2">&gt;</span>A mí tampoco me agarra<span class="llaves2">&lt;/span&gt;</span></li>
+
+	-->
+	<li><span class="llaves">&lt;/body&gt;</span></li>
+	</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	
+
+
 	<div>Seleccioné a todos los comentarios de abajo.</div>
 	<div class="colorRed">
 		<span>El primer comentario nos seleccionó</span>
